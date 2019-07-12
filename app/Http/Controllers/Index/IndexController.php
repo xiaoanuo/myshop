@@ -13,7 +13,7 @@ class IndexController extends Controller
 //        if ($session==null){
 //            return "<script>window.location.href='/login/login',alert('您还未登陆')</script>";
 //        }
-        return view('index.index');
+        return view('Index.index');
     }
 
 
