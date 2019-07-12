@@ -9,11 +9,11 @@ use Illuminate\Support\Facades\DB;
 class LoginController extends Controller
 {
     public function  register(){
-        return view('login.register');
+        return view('Login.register');
     }
 
     public function login(){
-        return view('login.login');
+        return view('Login.login');
     }
 
     public function  add_register(Request $request){
